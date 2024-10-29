@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset1.css" />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="image/freya.jpg" alt="Freya" />
+          <div class="detail">
+            <div class="tittle">Mobile Legend</div>
+            <div class="name">Freya</div>
+            <figure>
+              <img src="image/fighter.png" alt="fighter" />
+              <figcaption>
+                Power of Einherjar / Leap of Faith / Spirit Combo / Ougi:
+                Valkyrie Descent
+              </figcaption>
+            </figure>
+            <div class="des">
+              Freya's sister Skuld was an excellent Valkyrie, but because of an
+              accident triggered by Freya, she plunged into the Twilight Orb and
+              disappeared together with it. Therefore, Freya took over as the
+              Valkyrie and assumed the responsibility of protecting the Northern
+              Vale.
+            </div>
+            <a href="#" class="more">More Detail &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/gatot.jpg" alt="Gatot" />
+          <div class="detail">
+            <div class="tittle">Mobile Legend</div>
+            <div class="name">Gatot</div>
+            <figure>
+              <img src="image/tank.png" alt="tank" />
+              <figcaption>
+                Steel Bones / Blast Iron Fist / Unbreakable /Avatar of Guardian
+              </figcaption>
+            </figure>
+            <div class="des">
+              Warrior from the Arcadhem universe, The son of Bima and Arimbi
+              from the Arcadhem Universe. When he was a child, he became a
+              champion of the gods, fighting against enemies in his hometown.
+            </div>
+            <a href="#" class="more">More Detail &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/Nana.jpg" alt="Gatot" />
+          <div class="detail">
+            <div class="tittle">Mobile Legend</div>
+            <div class="name">Nana</div>
+            <figure>
+              <img src="image/mage.png" alt="tank" />
+              <figcaption>
+                Molina's Gift / Magic Boomerang / Molina Smooch / Molina Blitz
+              </figcaption>
+            </figure>
+            <div class="des">
+              In order have the means of controlling the magic in her body and
+              stop causing trouble, Nana, went to the Shadow Swamp in search of
+              a magical fruit with her good friend Molina. But when danger came,
+              Molina died protecting Nana.
+            </div>
+            <a href="#" class="more">More Detail &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/guinever.jpg" alt="Gatot" />
+          <div class="detail">
+            <div class="tittle">Mobile Legend</div>
+            <div class="name">guinevere</div>
+            <figure>
+              <img src="image/fighter.png" alt="tank" />
+              <figcaption>
+                Super Magic / Energy Wave / Spatial Migration / Violet Requiem
+              </figcaption>
+            </figure>
+            <div class="des">
+              As the youngest daughter of one of the few noble households in the
+              Land of Dawn, House Baroque, she studied at the Magic Academy
+              since she was a child, and is extremely talented in magic.
+            </div>
+            <a href="#" class="more">More Detail &raquo;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="thumbnail">
+        <div class="item">
+          <img src="image/freya.jpg" alt="Thumbnail" />
+          <div class="detail">
+            <div class="name">freya</div>
+            <blockquote>"Aku putri gorden vale!"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/gatot2.jpg" alt="Thumbnail" />
+          <div class="detail">
+            <div class="name">Gatot</div>
+            <blockquote>"Otot kawat tulang besi"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/Nana.jpg" alt="Thumbnail" />
+          <div class="detail">
+            <div
+              class="name"
+              style="background: linear-gradient(e81cff, f8acff)"
+            >
+              Nana
+            </div>
+            <blockquote>"apakah kamu ingin berteman dengan Nana?"</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/guinever.jpg" alt="Thumbnail" />
+          <div class="detail">
+            <div class="name">guinevere</div>
+            <blockquote>"Otot kawat tulang besi"</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+
+      <div class="loading-bar"></div>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
